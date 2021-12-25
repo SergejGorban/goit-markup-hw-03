@@ -1,0 +1,259 @@
+:root {
+    --title-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --btn-color: #FFFFFF;
+    --logo-color: #000000;
+}
+body {
+    font-family: "Roboto", sans-serif ;
+}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+
+
+
+
+/*-----------------HEADER---------------*/
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.header-logo {
+    color: var(--logo-color);
+}
+
+.header-nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+
+/*-----------------BANNERS---------------*/
+
+.banners {
+    background-color: #2F303A;
+}
+
+.banners-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--btn-color);
+}
+
+.banners-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--btn-color);
+    cursor: pointer;
+}
+
+.banners-btn {
+    background-color: var(--accent-color);
+}
+
+/*-----------------ADVANTAGES---------------*/
+
+
+
+.advantages-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.advantages-item-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/*-----------------PRACTICE---------------*/
+
+.practice-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+/*-----------------TEAM---------------*/
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/*-----------------FOOTER---------------*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.address {
+    font-style: normal;
+}
+
+.footer-logo {
+    color: var(--btn-color);
+}
+
+.address-link-map {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--btn-color);
+}
+
+.address-link-map:hover,
+.address-link-map:focus {
+    color: var(--accent-color);
+}
+
+.address-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+/*-------------------PORTFOLIO-----------------*/
+
+/*-------------------FILTER-----------------*/
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color) ;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--btn-color);
+    background-color: var(--accent-color);
+}
+
+/*-------------------SERVICES-----------------*/
+
+.services-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.services-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+

@@ -50,6 +50,11 @@ body {
 
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -57,10 +62,20 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    margin-right: 93px;
 }
 
 .header-logo {
     color: var(--logo-color);
+}
+
+.header-nav-list {
+    display: flex;
+    
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .header-nav-link {
@@ -84,6 +99,15 @@ body {
     color: var(--text-color);
 }
 
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts-list-mail {
+    margin-right: 50px;
+}
+
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--accent-color);
@@ -105,18 +129,26 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--btn-color);
+    margin-bottom: 30px;
+    max-width: 696px;
+    max-height: 120px;
 }
 
 .banners-btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--btn-color);
     cursor: pointer;
+    min-width: 200px;
+    min-height: 50px;
+    margin-left: 485px;
+    margin-right: 485px;
+    padding: 0;
+    border: 0;
 }
 
 .banners-btn {
@@ -254,6 +286,10 @@ body {
 }
 
 /*-------------------SERVICES-----------------*/
+
+.services {
+    padding: 94px 0;
+}
 
 .services-title {
     font-weight: 700;

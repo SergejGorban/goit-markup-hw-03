@@ -44,10 +44,10 @@ body {
 /*-----------------HEADER---------------*/
 
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 
-.header-container {
-    display: flex;
-    align-items: center;
 }
 
 .logo {
@@ -94,6 +94,7 @@ body {
 
 .banners {
     background-color: #2F303A;
+    padding: 200px 0;
 }
 
 .banners-title {
@@ -124,7 +125,10 @@ body {
 
 /*-----------------ADVANTAGES---------------*/
 
-
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 86px;
+}
 
 .advantages-item-title {
     font-weight: 700;
@@ -144,6 +148,10 @@ body {
 
 /*-----------------PRACTICE---------------*/
 
+.practice {
+    padding-bottom: 94px;
+}
+
 .practice-title {
     font-weight: 700;
     font-size: 36px;
@@ -154,6 +162,11 @@ body {
 }
 
 /*-----------------TEAM---------------*/
+
+.team {
+    padding-top: 94px;
+    padding-bottom: 30px;
+}
 
 .team-title {
     font-weight: 700;
@@ -185,6 +198,7 @@ body {
 
 .footer {
     background-color: #2F303A;
+    padding: 60px 0;
 }
 
 .address {

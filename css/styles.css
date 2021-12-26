@@ -131,7 +131,7 @@ body {
     color: var(--btn-color);
     margin-bottom: 30px;
     max-width: 696px;
-    max-height: 120px;
+    margin: auto
 }
 
 .banners-btn {
@@ -147,6 +147,7 @@ body {
     min-height: 50px;
     margin-left: 485px;
     margin-right: 485px;
+    margin-top: 30px;
     padding: 0;
     border: 0;
 }
@@ -160,6 +161,14 @@ body {
 .advantages {
     padding-top: 94px;
     padding-bottom: 86px;
+}
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .advantages-item-title {

@@ -32,7 +32,10 @@ body {
 }
 
 
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 
 
@@ -53,6 +56,21 @@ body {
 
 .logo {
     margin-right: 93px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.dark-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color);
 }
 
 .header-nav-list {
@@ -144,11 +162,6 @@ body {
 
 /*-----------------ADVANTAGES---------------*/
 
-.advantages {
-    padding-top: 94px;
-    padding-bottom: 86px;
-}
-
 .advantages-list {
     display: flex;
 }
@@ -182,7 +195,6 @@ body {
 
 .practice {
     padding-top: 0;
-    padding-bottom: 94px;
 }
 
 
@@ -208,8 +220,6 @@ body {
 /*-----------------TEAM---------------*/
 
 .team {
-    padding-top: 94px;
-    padding-bottom: 39px;
     background-color: #F5F4FA;
 }
 
@@ -266,8 +276,18 @@ body {
     padding: 60px 0;
 }
 
+.wite-logo {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--btn-color);
+}
+
 .address {
     font-style: normal;
+    margin-top: 20px;
 }
 
 .address-link-map {
@@ -292,10 +312,6 @@ body {
 .address-link:hover,
 .address-link:focus {
     color: var(--accent-color);
-}
-
-.address-list {
-    margin-top: 20px;
 }
 
 .address-item:not(:last-child) {
@@ -336,11 +352,6 @@ body {
 }
 
 /*-------------------SERVICES-----------------*/
-
-.services {
-    padding: 94px 0;
-    border-bottom: 1px solid #000;
-}
 
 .services-list {
     display: flex;

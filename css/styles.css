@@ -267,6 +267,37 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+    margin-bottom: 16px;
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.team-social-item + .team-social-item {
+    margin-left: 10px;
+}
+
+.team-social-link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--btn-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #afb1b8;
+}
+
+.team-social-icon {
+    fill: currentColor;
+}
+
+.team-social-link:focus,
+.team-social-link:hover {
+    background-color: var(--accent-color);
+    color: var(--btn-color);
 }
 
 /*-----------------FOOTER---------------*/
